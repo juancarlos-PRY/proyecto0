@@ -1,13 +1,29 @@
-article {
-    min-height: 100%;
-    display: grid;
-    grid-template-rows: auto 1fr auto;
+.forecast {
+    margin: 0;
+    padding: 0.3rem;
+    background-color: #181a3e;
+    font: 1rem "Fira Sans", sans-serif;
     }
    
-    footer {
-    display: flex;
-    justify-content: center;
-    padding: 5px;
-    background-color: #45a1ff;
-    color: #fff;
+    .forecast > h1,
+    .day-forecast {
+    margin: 0.5rem;
+    padding: 0.3rem;
+    font-size: 1.2rem;
+    }
+   
+    .day-forecast {
+    background: right/contain content-box border-box no-repeat
+    url("./assets/rain.svg") rgb(255, 255, 255);
+    }
+   
+    .day-forecast > h2,
+    .day-forecast > p {
+    margin: 0.2rem;
+    font-size: 1rem;
+    }
+
+    h1 {
+     color: white;
+
     }
