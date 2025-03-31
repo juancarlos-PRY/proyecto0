@@ -12,15 +12,18 @@ h1 {
     box-shadow: inset 10px 10px 5px rgb(254, 254, 254);
 }
 
+
+
+
 p {
     color: rgba(0, 0, 0, 0.886);
 }
 
 .Bienvenido {
-    color: rgb(0, 0, 0);
+    color: rgb(6, 54, 10);
     background-color: rgb(255, 255, 255);
     width: 20%;
-    border: 5px solid rgb(0, 46, 80);
+    border: 5px solid;
     border-radius: 20px;
     position: absolute;
     bottom: 420px;
@@ -29,4 +32,9 @@ p {
 
 body {
     background-color: rgb(68, 67, 67);
+}
+
+form {
+    padding-top: 100px;
+    color: rgb(255, 255, 255);
 }
