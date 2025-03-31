@@ -9,5 +9,24 @@ h1 {
    border: 20px solid rgba(0, 30, 48, 0.867);
     border-radius: 20px;
     padding: 20px;
-    box-shadow: inset;
+    box-shadow: inset 10px 10px 5px rgb(254, 254, 254);
+}
+
+p {
+    color: rgba(0, 0, 0, 0.886);
+}
+
+.Bienvenido {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    width: 20%;
+    border: 5px solid rgb(0, 46, 80);
+    border-radius: 20px;
+    position: absolute;
+    bottom: 420px;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(68, 67, 67);
 }
